@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Đăng ký thành viên</h1>
+    <style>
+        table, tr, td, th {
+          border: 1px solid #ddd;
+        }
+    
+        td, th {
+          padding: 10px;
+        }
+      </style>
+      <table>
+        <tbody>
+            <tr>
+                <td><label for="hoten">Họ tên</label></td>
+                <td><input type="text" name="hoten" id="hoten" placeholder="Vui lòng nhập Họ tên"></td>
+            </tr>
+            <tr>
+                <td><label for="matkhau">Mật khẩu</label></td>
+                <td><input placeholder="Vui lòng nhập mật khẩu" type="password" name="pass" id="matkhau"></td>
+            </tr>
+            <tr>
+                <td><label for="nam">Giới tính:</label></td>
+                <td><input type="radio" name="gioitinh" id="nam">
+                    <label >Nam</label>
+                    <input type="radio" name="gioitinh" id="Nữ">
+                    <label >Nữ</label>
+                    <input type="radio" name="gioitinh" id="Không công bố">
+                    <label >Không công bố</label>
+                </td>
+                    
+            </tr>
+            <tr>
+                <td><label >Sở thích:</label></td>
+                <td><input type="checkbox" name="xemphim" id="xemphim">
+                    <label>Xem phim</label><br>
+                    <input type="checkbox" name="xemphim" id="docsach">
+                    <label>Đọc sách</label><br>
+                    <input type="checkbox" name="xemphim" id="nghenhac">
+                    <label>Nghe nhạc</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="number" >Tuổi</label></td>
+                <td> <input type="text" value="15"> </td>
+            </tr>
+            <tr>
+                <td><label for="timkiem">Từ khóa tìm kiếm</label></td>
+                <td><input type="text" name="timkiem" id="timkiem" value="tu khoa"></td>
+            </tr>
+            <tr>
+                <td><label>Giới thiệu bản thân</label></td>
+                <td><textarea name="abc" id="abc" cols="30" rows="10" placeholder="Xin Chào, Tôi tên là Cường"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email có thể liên hệ</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="diachi">Địa chỉ web của bạn</label></td>
+                <td><input type="text" name="diachi" id="diachi"></td>
+            </tr>
+            <tr>
+                <td><label for="sdt">Số điện thoại:</label></td>
+                <td><input type="number" name="sdt" id="sdt"></td>
+            </tr>
+            <tr>
+                <td><label >Các loại chọn Thời gian</label></td>
+                <td><label ><b>Ngày tháng</b></label><br>
+                 <label>Chọn ngày: </label>
+                 <input type="date" name="date" id="date"><br>            
+                 <label>Chọn tháng: </label>
+                 <input type="month" name="month" id="month"><br>
+                 <label>Chọn tuần: </label>
+                 <input type="week" name="week" id="week"><br><br>
+                 <label><b>Giờ</b></label><br><br>
+                 <label >Chọn giờ</label>
+                 <input type="time" name="time" id="time"><br>
+                 <label >Chọn cả Ngày + Giờ</label>
+                 <input type="datetime-local">
+
+                
+                </td>
+            </tr>
+            <tr>
+                <td><label >Màu yêu thích</label></td>
+                <td><input type="color"></td>
+            </tr>
+            <tr>
+                <td>Bạn đang sinh sống ở TP/Tỉnh nào?</td>
+                <td><input type="text"></td>
+            </tr>
+
+
+        </tbody>
+      </table>
+
+    
+</body>
+</html>
